@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    position: fixed;
+    width: 25rem;
+    top: 10px;
+    padding: 0.75rem;
+    background-color:rgba(220, 220,220, 0.75);
+    backdrop-filter: blur(10px);
+    border-radius: 3rem;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: space-around;
+    gap: 3rem;
+}
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color: orangered;
+  } 
+main{
+    height: 5%;
+    margin: 7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    font-size: 36;
+
+}
+.profile-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+    width: 20rem;
+    box-shadow: 0px 0px 5px rgba(51, 51,51, 0.75);
+    border-radius: 4rem;
+}
+img{
+
+    height:75%;
+    width: 75%;
+    transform: translateX(-15px);
+    transform: translateY(-10px);
+}
+
+.profile-img:hover{
+    background-color: orange;
+}
+
+.star,.circle,.greensquare{
+    height:4rem;
+    width: 4rem;
+    position: absolute;
+}
+.star{
+    top: 250px;
+    left: 30%;
+}
+
+.circle{
+    height:8rem;
+    width: 8rem;
+    top: 250px;
+    right: 30%;
+}
+
+.greensquare{
+    top: 650px;
+    left: 30%;
+}
+ section{
+height: 100vh;
+width: 100%;
+margin: 1rem;
+background-color: gray; 
+
+}
+
